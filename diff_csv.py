@@ -24,4 +24,6 @@ def file_compare(first_file, second_file):
 				else:
 					counter += 1
 
-file_compare(first_file, second_file)
+#file_compare(first_file, second_file)
+#uncomment the above line to execute the script. replace arguments with 
+#filename strings.
