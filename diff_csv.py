@@ -4,8 +4,8 @@ import csv
 
 #takes in filenames as strings
 def file_compare(first_file, second_file):
-	with open(first_file, "rb") as orig_file:
-		with open(second_file, "rb") as new_file:
+	open(first_file, "rb") as orig_file:
+		open(second_file, "rb") as new_file:
 			#with open("difffile.csv", "w+") as diff_file:
 			#uncomment this if you want to output the result to a new CSV
 			reader_1 = csv.reader(orig_file)
